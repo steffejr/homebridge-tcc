@@ -7,7 +7,7 @@ function toFahrenheit(celcius) {
 }
 
 function toCelcius(Fahrenheit) {
-  return round5((Fahrenheit - 32) * 5 / 9);
+  return ((Fahrenheit - 32) * 5 / 9);
 }
 
 function round5(x) {
